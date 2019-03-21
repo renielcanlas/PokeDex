@@ -20,8 +20,8 @@
   <Description DefaultValue="Show details of a given Pokémon"/>
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-32.png" />
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/hi-res-icon.png"/>
+  <IconUrl DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-32.png" />
+  <HighResolutionIconUrl DefaultValue="https://renielcanlas.github.io/Pokedex/assets/hi-res-icon.png"/>
 
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below-->
   <SupportUrl DefaultValue="https://renielcanlas.github.io" />
@@ -45,7 +45,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/index.html"/>
+        <SourceLocation DefaultValue="https://renielcanlas.github.io/Pokedex/index.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -104,13 +104,13 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://localhost:3000/function-file/function-file.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://localhost:3000/index.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://renielcanlas.github.io/Pokedex/function-file/function-file.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://renielcanlas.github.io/Pokedex/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="PokéDex"/>
@@ -205,15 +205,15 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://localhost:3000/assets/icon-16.png"/>
-        <bt:Image id="icon25" DefaultValue="https://localhost:3000/assets/icon-25.png"/>
-        <bt:Image id="icon32" DefaultValue="https://localhost:3000/assets/icon-32.png"/>
-        <bt:Image id="icon48" DefaultValue="https://localhost:3000/assets/icon-48.png"/>
-        <bt:Image id="icon80" DefaultValue="https://localhost:3000/assets/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-16.png"/>
+        <bt:Image id="icon25" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-25.png"/>
+        <bt:Image id="icon32" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-32.png"/>
+        <bt:Image id="icon48" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-48.png"/>
+        <bt:Image id="icon80" DefaultValue="https://renielcanlas.github.io/Pokedex/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://localhost:3000/function-file/function-file.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://localhost:3000/index.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://renielcanlas.github.io/Pokedex/function-file/function-file.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://renielcanlas.github.io/Pokedex/index.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="PokéDex"/>

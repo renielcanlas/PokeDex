@@ -7,12 +7,15 @@
 
 $(document).ready(() => {
     //$('#run').click(run);
+    $("#data").html("<b>Test Log</b><br>");
+    console.log("Heyy");
     Office.onReady(function() {
         let mail = Office.context.mailbox.item;
         let subject = mail.subject;
-
+        $("#log").html("Office is ready<br>");
         $.get("https://pokeapi.co/api/v2/pokemon/" + subject, function(data, status) {
             if(status=="success") {
+                $("#log").html("GET request completed<br>");
                 $("#pokemonName").text(data.name.charAt(0).toUpperCase() + data.name.slice(1));
                 $("#sprite").attr("src", data.sprites.front_default);
 
